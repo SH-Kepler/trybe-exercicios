@@ -1,0 +1,23 @@
+body {
+    background-color:grey;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color:azure;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration:underline ;
+}
+.background-color {
+    color:bisque;
+}
+p {
+    font-style: oblique;
+    font-size: 3em;
+    font-weight: 600;
+}
+#list{
+    line-height: 50px;
+}
