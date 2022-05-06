@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
-        h1 {
-            width: 65px;
-            color: orange;
-        }
-        .background-color {
-            background-color: bisque;
+
+        body {
+            background-color:grey;
+            font-size: 16px;
         }
 
+        h1 {
+            font-size: 65px;
+            color:azure;
+            font-family: sans-serif;
+            text-align: center;
+            text-decoration:underline ;
+        }
+        .background-color {
+            color:bisque;
+        }
+        p {
+            font-style: oblique;
+            font-size: 3em;
+            font-weight: 600;
+        }
+        #list{
+            line-height: 50px;
+        }
 
 
 
@@ -20,7 +36,7 @@
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="background-color">Qual é a sua cor favorita?</p>
-    <ul class="background-color">
+    <ul id="list" class="background-color">
       <li>Amarelo</li>
       <li>Vermelho</li>
       <li>Marrom</li>
