@@ -1,0 +1,32 @@
+div:hover {
+    border: 1px solid rgb(111, 111, 111);
+}
+
+div:nth-of-type(1) {
+    color: #F50000;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+div:nth-of-type(2) {
+    color: #FB5000;
+    text-decoration: underline;
+}
+
+div:nth-of-type(3){
+    color: #FF006E;
+    text-transform: uppercase;
+    font-size: large;
+    font-style: italic;
+}
+
+div:nth-of-type(4){
+    color: #424B54;
+    text-decoration: overline;
+}
+
+div:nth-of-type(5) {
+    color: #CBE896;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
