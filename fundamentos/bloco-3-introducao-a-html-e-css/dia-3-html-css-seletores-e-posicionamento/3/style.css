@@ -1,0 +1,41 @@
+.header {
+    color: red;
+}
+
+.italico {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+ol, ul {
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.ordered-lists {
+    background-color: #F4E285;
+}
+
+.par {
+color: lightgreen;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+.blue {
+    color: lightskyblue;
+}
+
+.java {
+    background-color: lightpink;
+}
+
+.bonus:hover {
+    font-weight: bold;
+    font-family: sans-serif;
+}
