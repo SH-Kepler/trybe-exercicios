@@ -1,0 +1,14 @@
+header {
+
+}
+
+#title {
+
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 13%;
+    text-decoration: none;
+}
