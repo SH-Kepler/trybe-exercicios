@@ -6,31 +6,62 @@
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Document</title>
 </head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <body>
   <h1 id="title">TrybeTrip</h1>
-  <div class="form">
+  <div>
     <form action="" method="get">
-      <label class="label" for="name">Nome: </label>
-      <input class="input" type="text" name="name" id="name">
-      <br>
-      <label class="label" for="email">Email: </label>
-      <input class="input" type="email" name="email" id="email">
-      <br>
-      <input class="radio" type="radio" name="destiny" id="city">
-      <label for="city">Cidade</label>
-      <input class="radio" type="radio" name="destiny" id="camp">
-      <label for="camp">Campo</label>
-      <input class="radio" type="radio" name="destiny" id="beach">
-      <label for="beach">Praia</label>
-      <input class="radio" type="radio" name="destiny" id="mountains">
-      <label for="mountains">Montanhas</label>
-      <br>
-      <label class="label" for="answer">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
-      </label>
-      <br>
-      <textarea class="input" name="answer" id="answer" cols="30" rows="10"></textarea>
+      <div>
+        <label for="name">Nome: </label>
+        <input type="text" name="name" id="name">
+      </div>
+      
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+      </div>
+      
+      <div>
+        <input type="radio" name="destiny" id="city">
+        <label for="city">Cidade</label>
+        <input type="radio" name="destiny" id="camp">
+        <label for="camp">Campo</label>
+        <input type="radio" name="destiny" id="beach">
+        <label for="beach">Praia</label>
+        <input type="radio" name="destiny" id="mountains">
+        <label for="mountains">Montanhas</label>
+      </div>
+      
+      <div>
+        <label for="answer">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip? </label>
+      </div>
+      
+      <div>
+        <textarea name="answer" id="answer" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="date">Data: </label>
+        <input type="date" name="date" id="date">
+      </div>
+
+      <div>
+        <label for="oportunity">Marque para receber incríveis oportunidades oferecidas pela Trybe.</label>
+        <input type="checkbox" name="email-oportunity" id="oportunity">
+      </div>
+
+      <div>
+        <label for="permission">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input type="checkbox" name="permission" id="permission">
+      </div>
+
+      <button type="submit" id="submit-btn">Enviar</button>
+      <button type="button" id="clear-btn">Apagar informações</button>
     </form>
   </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
